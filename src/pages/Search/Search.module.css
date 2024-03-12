@@ -1,0 +1,5 @@
+.search{
+    display: flex;
+    padding-top: 84px;
+    flex-direction: column;
+}
