@@ -1,13 +1,11 @@
-import style from './Footer.module.css';
+import styles from "./Footer.module.css";
 
-function Footer(){
-    return(
-        <>
-        <footer className={style.footer}>
-            <he>VMFlix &copy; Desenvolvido por Vinicius Miguel</he>
+function Footer() {
+    return (
+        <footer className={styles.footer}>
+            <h2>MaiaFlix &copy; Desenvolvido por Edson Maia 2023</h2>
         </footer>
-        </>
-    )
+    );
 }
 
 export default Footer;

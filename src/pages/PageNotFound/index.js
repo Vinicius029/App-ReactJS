@@ -1,20 +1,19 @@
-import Footer from '../../components/Footer';
-import Header from '../../components/Header';
-import styles from './PageNotFound.module.css'
-import img404 from './erro404.png'
+import erro404 from './erro404.png';
+import styles from "./PageNotFound.module.css";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
-function PageNotFound(){
-    return(
+function PageNotFound() {
+    return (
         <>
-         <Header />
+        <Header />
         <section className={styles.container}>
-            <h2>Ops! Conteudo não localizado!</h2>
-            <img src={img404} alt="Logo de pagina não localizada"/>
+            <h2>Ops! Conteúdo não localizado!</h2>
+            <img src={erro404} alt="Logo de Página não localizada" />
         </section>
         <Footer />
         </>
-       
-    )
+    );
 }
 
 export default PageNotFound;
